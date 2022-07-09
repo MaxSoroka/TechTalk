@@ -70,58 +70,58 @@ h1,h2,h3,h4,h5,.subheader,p,.link,.label{
     color: @white;
   }
 }
-h1 {
+h1, h2.headline_1 {
   font-family: @head-font;
-  line-height: 70px;
   font-size: 56px;
+  line-height: 70px;
   font-weight: 500;
 }
-h2 {
+.headline_2 {
   font-family: @head-font;
-  line-height: 40px;
   font-size: 32px;
+  line-height: 40px;
   font-weight: 500;
 }
-h3 {
+.headline_3 {
   font-family: @head-font;
-  line-height: 28px;
   font-size: 24px;
+  line-height: 28px;
   font-weight: 400;
 }
-h4 {
+.headline_4 {
   font-family: @font-reg;
-  line-height: 30px;
   font-size: 22px;
+  line-height: 30px;
 }
-h5 {
+.headline_5 {
   font-family: @font-bold;
-  line-height: 22px;
   font-size: 18px;
+  line-height: 22px;
 }
 .subheader {
   font-family: @font-reg;
-  line-height: 24px;
   font-size: 18px;
+  line-height: 24px;
   letter-spacing: 5.3px;
   text-transform: uppercase;
 }
-p {
+.body {
   font-family: @font-reg;
-  line-height: 24px;
   font-size: 16px;
-  color: @dark-grey;
-}
-.label {
-  font-size: 12px;
-  line-height: 14px;
+  line-height: 24px;
   color: @dark-grey;
 }
 .link {
   color: @white;
   font-family: @font-reg;
-  line-height: 16px;
   font-size: 14px;
+  line-height: 16px;
   text-decoration: underline;
+}
+.label {
+  font-size: 12px;
+  line-height: 14px;
+  color: @dark-grey;
 }
 .btn {
   font-size: 20px;
@@ -258,7 +258,7 @@ body {
     padding-bottom: 0;
     &:extend(.flex-extender);
 
-    h1 {
+    h2 {
       margin-top: 4px;
       text-align: center;
     }
@@ -329,7 +329,7 @@ body {
     text-align: center;
     &:extend(.flex-extender);
 
-    h1 {
+    h2 {
       margin-top: 5px;
     }
     .marketing_list {
@@ -407,7 +407,7 @@ body {
     text-align: center;
     &:extend(.flex-extender);
 
-    h1 {
+    h2 {
       margin-top: 29px;
     }
     .btn {

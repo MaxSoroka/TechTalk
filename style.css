@@ -33,58 +33,59 @@ p.white,
 .label.white {
   color: #ffffff;
 }
-h1 {
+h1,
+h2.headline_1 {
   font-family: "Maragsa";
-  line-height: 70px;
   font-size: 56px;
+  line-height: 70px;
   font-weight: 500;
 }
-h2 {
+.headline_2 {
   font-family: "Maragsa";
-  line-height: 40px;
   font-size: 32px;
+  line-height: 40px;
   font-weight: 500;
 }
-h3 {
+.headline_3 {
   font-family: "Maragsa";
-  line-height: 28px;
   font-size: 24px;
+  line-height: 28px;
   font-weight: 400;
 }
-h4 {
+.headline_4 {
   font-family: "Apercu Regular";
-  line-height: 30px;
   font-size: 22px;
+  line-height: 30px;
 }
-h5 {
+.headline_5 {
   font-family: "Apercu Bold";
-  line-height: 22px;
   font-size: 18px;
+  line-height: 22px;
 }
 .subheader {
   font-family: "Apercu Regular";
-  line-height: 24px;
   font-size: 18px;
+  line-height: 24px;
   letter-spacing: 5.3px;
   text-transform: uppercase;
 }
-p {
+.body {
   font-family: "Apercu Regular";
-  line-height: 24px;
   font-size: 16px;
-  color: #575452;
-}
-.label {
-  font-size: 12px;
-  line-height: 14px;
+  line-height: 24px;
   color: #575452;
 }
 .link {
   color: #ffffff;
   font-family: "Apercu Regular";
-  line-height: 16px;
   font-size: 14px;
+  line-height: 16px;
   text-decoration: underline;
+}
+.label {
+  font-size: 12px;
+  line-height: 14px;
+  color: #575452;
 }
 .btn {
   font-size: 20px;
@@ -213,7 +214,7 @@ body {
 .container .feature_presentation {
   padding-bottom: 0;
 }
-.container .feature_presentation h1 {
+.container .feature_presentation h2 {
   margin-top: 4px;
   text-align: center;
 }
@@ -274,7 +275,7 @@ body {
 .container .advantages {
   text-align: center;
 }
-.container .advantages h1 {
+.container .advantages h2 {
   margin-top: 5px;
 }
 .container .advantages .marketing_list {
@@ -340,7 +341,7 @@ body {
   background: #0a236d;
   text-align: center;
 }
-.container footer h1 {
+.container footer h2 {
   margin-top: 29px;
 }
 .container footer .btn {
